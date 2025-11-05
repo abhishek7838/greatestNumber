@@ -4,12 +4,12 @@ public class PalindromNumber
 {
 	void checkNumber(int num1)
 	{
-		int num,rev=0,rem;
+		int num,rev=0,remender;
 		num=num1;
 		while(num!=0)
 		{
-			rem=num%10;
-			rev=rev*10+rem;
+			remender=num%10;
+			rev=rev*10+remender;
 			num=num/10;
 		}
 		System.out.println(rev);
